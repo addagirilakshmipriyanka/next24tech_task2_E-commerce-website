@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.all-content {
+    background-color: #f7f5f2;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #b2744c;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+#navbar {
+    background-color: #b2744c;
+}
+
+#logo img {
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+
+.nav-item .nav-link {
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: white;
+    border-radius: 5px;
+    color: black;
+}
+
+#navbar form button {
+    background: green;
+    color: white;
+    border: 1px solid white;
+}
+
+#home {
+    width: 100%;
+    height: 88vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/home/rgukt/flower_ecomerse/coffee_cup.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        background-color: #b2724c;
+}
+
+#home .content {
+    padding-top: 160px;
+    margin-left: 56px;
+    color: white;
+}
+
+#home .content h3 {
+    font-size: 50px;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #b2744c;
+    color: white;
+}
+
+.card {
+    width: 400px;
+    background-color: #b2744c;
+    margin-right: 20px; /* Adjust the margin between each card */
+}
+
+.card img {
+    height: 40vh;
+    width: 400px;
+}
+
+#about-btn:hover {
+    background-color: #b2744c;
+}
+
+#about-btn {
+    font-weight: bold;
+    border-color: #b2744c;
+}
+
+#about .heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#about h2 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 982px) {
+    #about p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    #about p {
+        font-size: 15px;
+    }
+}
+
+#top-cards {
+    width: 100%;
+    height: 60vh;
+    background: #f7f5f2;
+    padding-left: 20px;
+}
+
+#top-cards .heading2 {
+    color: #b2744c;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#top-cards .card {
+    width: calc(100.33% - 10px); /* Adjust the width to fit three cards in one row */
+    margin-bottom: 20px; /* Adjust the margin between rows */
+    background-color: #b2744c;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#top-cards .card img {
+    height: 40vh;
+    width: 100%; /* Ensure the image takes up the entire width of the card */
+    border-radius: 10px;
+}
+
+#top-cards .card:not(:last-child) {
+    margin-right: 20px; /* Adjust the margin between each card */
+}
+
+#top-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+#menu .heading3 {
+    color: #b2744c;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#menu .card {
+    width: calc(100.33% - 10px); /* Adjust the width to fit three cards in one row */
+    margin-bottom: 20px; /* Adjust the margin between rows */
+    background-color: #b2744c;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#menu .card img {
+    height: 40vh;
+    width: 100%; /* Ensure the image takes up the entire width of the card */
+    border-radius: 10px;
+}
+
+#menu .card:not(:last-child) {
+    margin-right: 20px; /* Adjust the margin between each card */
+}
+
+#menu .card:hover {
+    transform: translateY(-10px);
+}
+
+#product{
+widtH:100%;
+}
+.heading4{
+text-align:center;
+color:#b2744c;
+font-weight:bold;
+font-size:50px;
+margin-top:30px;
+border-radius:2px solid #b2744c;
+}/*
+#product h3{
+text-align:center;
+color:#b2744c;
+font-size:23px;
+}
+#product p{
+color:#b2744c;
+padding-top:10px;
+}
+
+#product p san{
+float:right;
+cursor:pointer;
+}*/
+
+#product .heading3 {
+    color: #b2744c;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#product .card {
+    width: calc(110.33% - 20px); /* Adjust the width to fit three cards in one row */
+    margin-bottom: 20px; /* Adjust the margin between rows */
+    background-color: #b2744c;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right:60px;
+}
+.p{color:#b2744c;
+  height:10%;
+  margin:20px 0;
+  width:100%; }
+  
+   #product .card img {
+    height: 40vh;
+    width: 100%; /* Ensure the image takes up the entire width of the card */
+    border-radius: 10px;
+}
+
+#product .card:not(:last-child) {
+    margin-right: 20px; /* Adjust the margin between each card */
+}
+
+#product.card:hover {
+    transform: translateY(-10px);
+}
+#product p span{float:right;
+cursor:pointer;}
+.heading5{font-size:30px;
+         color:black;
+         text-align:center;
+         margin-top:60px;
+         font-weight:bold;}
+ .heading5 span{color:#b2744c;}
+#gallery .card{
+cursor:pointer;}
+#contact{
+width:100%;
+height:80vh;
+padding-top:70px;
+}
+#contact .container{
+width:100%;
+height:80vh;
+background:linear-gradient(90deg,white 80%,#b2744c 20%);
+border-radius:10px;
+}
+.heading6{font-size:30px;
+font-weight:bold;
+margin-top:70px;}
+.heading6 span{color:#b2744c;}
+#cantact p{font-weight:bold;
+font-size:13px;
+color:black;}
+#contact input{
+width:360px;
+border:none;
+border-bottom:1px solid #b2744c;
+}
+#contact-btn{
+width:200px;
+height:36px;
+border:none;
+background:#b2744c;
+color:white;
+font-weight:bold;
+margin-top:30px;
+cursor:Pointer;
+border-radius:10px;
+}
+#col{
+margin-bottom:1020px;
+width:40%;
+height:80vh;
+background:#b2744c;
+margin-bottom:70px;
+font-weight:bold;
+font-size:80px;
+
+}
+#contact h1{
+
+color:white;
+font-size:25px;
+margin-top:10px;
+margin-left:0px;
+}
+#contact #col p{
+font-size:15px;
+color:white;
+margin-left:13px;
+margin-top:30px;
+}
+@media screen and(max-width:766px){
+#contact .container{
+background:#b2744c;
+}
+#col{
+width:100%;
+background:#b2744c;
+}#contact{
+height:150vh;
+}
+}
+@media screen and (max-width:400px){
+#contact input{
+width:250px;
+}
+}
+#blog{
+width:100%;
+}
+#blog .heading7{
+text-align:center;
+font-size:40px;
+color:black;
+margin-top:150px;
+font-weight:bold;
+
+}
+#blog .heading7 span{
+color:#b2744c;
+}
+#blog .container{
+margin-top:20px;
+}
+#blog h5{color:#b2744c;}
+#blog-btn{
+width:200px;
+height:36px;
+border:none;
+color:white;
+background:#b2744c;
+cursor:pointer;
+}
+#footer{
+width:100%;
+background:#b2744c;
+margin-top:50px;
+}
+.footer-logo img{
+width:180x;
+border-radius:10x;
+margin-top:30px;
+cursor:pointer;
+}#fooer .social-links{margin-top:30px;}
+#fooer .social-links i{
+font-size:17px;
+margin-left:10px;
+margin-top:50px;
+padding:10px;
+background:black;
+color:white;
+border-radius:10px;
+cursor:pointer;
+}.credits{
+color:white;
+margin-top:20px;
+text-shadow:
+}
+.credits a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+.credits a span{
+color:black;}
+.copyright span{
+color:black;}
+
+
+
+
+
+
+

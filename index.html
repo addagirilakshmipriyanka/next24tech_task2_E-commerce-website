@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+  <style>
+    #navbar {
+      padding: 0px;
+    }
+    .navbar-brand img {
+      max-width: 80px;
+    }
+    .navbar-nav .nav-link {
+      font-size: 18px; /* Adjust as needed */
+    }
+    .navbar-toggler {
+      font-size: 24px; /* Adjust as needed */
+    }
+    .navbar-collapse {
+      margin-top: 10px;
+    }
+    .form-control {
+      font-size: 16px; /* Adjust as needed */
+      height: auto; /* Reset to default */
+      padding: 8px 12px; /* Adjust as needed */
+    }
+    .btn {
+      font-size: 16px; /* Adjust as needed */
+      padding: 8px 20px; /* Adjust as needed */
+    }
+    .star {
+      color: #f8ce0b; /* Star color */
+      font-size: 24px; /* Adjust as needed */
+    }
+  </style>
+</head>
+<body>
+  <div class="all-content">
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="logo">
+          <img src="/home/rgukt/projects/coffee_ecomerse/coffee.jpeg" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars" style="color:white; font-size:23px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="font-size: 20px;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" style="font-size: 20px;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu" style="font-size: 20px;">menu</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#product" style="font-size: 20px;">product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery" style="font-size: 20px;">gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" style="font-size: 20px;">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog" style="font-size: 20px;">Blogs</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2"  placeholder="Search" ">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="content">
+        <h3> Start your Day with a fresh coffee</h3>
+        <p>Experience the rich, bold flavors of our ethically sourced, freshly roasted coffee,
+          <br> crafted to perfection to awaken your senses and elevate your everyday moments</p>
+        <button id="btn">Shop now</button>
+      </div>
+    </section>   
+    <section id="about">
+      <div class="container">
+        <div class="heading"> about <span style=color:#b2744c>us</span></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="/home/rgukt/projects/coffee_ecomerse/coffee1.jpeg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>what makes our coffee special</h2>
+            <p>lorem ipsa sit amet consectuer adipisicing elit Laudantium sapiente delectus voluptatum et ipsa,vero quibus<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad iusto voluptatum eligendi nisi cosectutur supscip<br><br>Lorem ipsum dolor sit amet consectetuer adipisicing elit.Ad iusto voluptatum eligendi nisi consectuteur suscip</p>
+            <button id="about-btn">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="top-cards">
+      <div class="heading2">Top<span> Categories</span</div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card1.jpeg"alt="">
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card2.jpeg"alt="">
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card3.jpeg"alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="menu">
+
+          <div class="heading3">MENU</div>
+      
+        <div class="container" id="container2">
+          <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card4.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card5.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>cappuccino coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card6.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card7.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+             <div class="container" id="container2">
+          <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card8.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card9.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>cappuccino coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card10.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card11.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+             <div class="container" id="container2">
+          <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card12.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card13.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>cappuccino coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card14.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>Honey coffee</h3>
+                  <p>$99 &nbsp; <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card15.jpeg" alt="">
+                <div class="card-body text-center">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <h3>coffee</h3>
+                  <p>$99   <strike>$100</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+            </section>
+  
+      
+      <section id="product">
+      <div class="container">
+      
+      <div class="heading4">products</div>  <div class="p"><hr></div>
+      <div class="container" id="container3">
+      
+      <div class="row">
+      <div class="col-md-3 py-3 py-3">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card17.jpeg" alt="">
+      <div class="card-body">
+      <h3>Arabic coffee</h3>
+      <p>$120  <strike>$150</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+      </div>
+      </div>
+      </div>
+        <div class="col-md-3 py-3 py-3">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card18.jpeg" alt="">
+      <div class="card-body">
+      <h3>Nescafe coffee</h3>
+      <p>$120  <strike>$150</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+      </div>
+      </div>
+      </div>
+        <div class="col-md-3 py-3 py-3">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card19.jpeg" alt="">
+      <div class="card-body">
+      <h3>decaf coffee</h3>
+      <p>$100<strike>$120</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+      </div>
+      </div>
+      </div>
+        <div class="col-md-3 py-3 py-3">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card20.jpeg" alt="">
+      <div class="card-body">
+      <h3>Black coffee</h3>
+      <p>$130    <strike>$200</strike>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="fa-solid fa-cart-shopping"></span></p>
+      </div>
+      </div>
+      </div>
+      <div>     
+      <div>
+      </div>   
+      </section>
+      
+      
+      <section id="gallery">
+      <div class="container" >
+      <div class="heading5">Our<span> Gallery</span></div>
+      <div class="row" style="margin-top:30px;">
+      
+      <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card21.jpeg"alt="">
+      </div>
+      </div>
+       <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card22.jpeg"alt="">
+      </div>
+      </div>
+       <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card23.jpeg "alt="">
+      </div>
+      </div>
+      </div>
+      <div class="row">
+      
+      <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card24.jpeg"alt="">
+      </div>
+      </div>
+       <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card25.jpeg"alt="">
+      </div>
+      </div>
+       <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card26.jpeg"alt="">
+      </div>
+      </div>
+      </div>
+      
+      <div class="row">
+      
+      <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card27.jpeg"alt="">
+      </div>
+      </div>
+       <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card28.jpeg"alt="">
+      </div>
+      </div>
+       <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card29.jpeg"alt="">
+      </div>
+      </div>
+      </div>    
+      </div>
+       </div>
+      </section>
+      
+      <section id="contact">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-7">
+      <div class="heading6">Contact <span> US:</span></div>
+      <p>
+      Lorem ipsum dolor sit amet consecteetur,adipiscing eli.Reliciendis,lobore<br>ipsum dolor sit amet consecteetur.
+      
+      </p> 
+      <input type="text" class="form-control" placeholder="enter the your name" arial-label="default input example"><br>
+            <input type="email" class="form-control" placeholder="enter the your email" arial-label="default input example"><br>
+                  <input type="contact" class="form-control" placeholder="enter the your number" arial-label="default input example"><br>
+      <button id="contact-btn">send message</button>
+      </div>
+      <div class="col-md-5" id="col">
+      <h1>Info</h1>
+      <p><i class="fa-regular fa-envelope"></i>example@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i>+91234567890</p>
+      <p><i class="fa-solid fa-building-colums"></i>Lakshmi priyanka Addagiri</p>
+     <p>
+      Lorem ipsum dolor sit amet consecteetur,adipiscing eli.Reliciendis,lobore<br>ipsum dolor sit amet consecteetur.
+      </p>
+      </div>
+      </div></div>
+      </section>
+       <section id="blog">
+       <div class="heading7">Latet <span>Blog</span></div>
+       <div class="container">
+       <div class="row">
+       <div class="col-md-4 py-3 py-md-0">
+       <div class="card">
+       <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card30.jpeg" alt="">
+       <div class="card-body">
+       <h3>Lorem,isum dolor.</h3>
+       <h5>Admin/14 november 2024</h3>
+       <p>Lorem isum dolor sit amet consectetur adipisicing elit.Non ipsam sendquod,hic unde tempore cum!qui necessitatibus ipsum memo</p>
+       <button id="blog-btn">Reag more..</button>
+       </div>
+       </div>
+</div>
+<div class="col-md-4 py-3 py-md-0">
+       <div class="card">
+       <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card32.jpeg" alt="">
+       <div class="card-body">
+       <h3>Lorem,isum dolor.</h3>
+       <h5>Admin/14 november 2024</h3>
+       <p>Lorem isum dolor sit amet consectetur adipisicing elit.Non ipsam sendquod,hic unde tempore cum!qui necessitatibus ipsum memo</p>
+       <button id="blog-btn">Reag more..</button>
+       </div>
+       </div>
+</div>
+<div class="col-md-4 py-3 py-md-0">
+       <div class="card">
+       <img src="/home/rgukt/projects/coffee_ecomerse/coffee_card33.jpeg" alt="">
+       <div class="card-body">
+       <h3>Lorem,isum dolor.</h3>
+       <h5>Admin/14 november 2024</h3>
+       <p>Lorem isum dolor sit amet consectetur adipisicing elit.Non ipsam sendquod,hic unde tempore cum!qui necessitatibus ipsum memo</p>
+       <button id="blog-btn">Reag more..</button>
+       </div>
+       </div>
+</div>
+</div>
+</div>
+</section>  
+<section id="footer">
+<div class="footer-logo text-center"><img src="/home/rgukt/projects/coffee_ecomerse/coffee.jpeg" alt=""> </div>
+<div class="social-links text-center">
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-interest-p"></i>
+</div>
+<div class="credits text-center">
+designed by<a href="#"><span>  ALP coding</span></a>
+</div>
+<div class="coyright text-center">
+&copy; Copyright  <strong><span>coffeeshop</span></strong>.All rights reserved
+</div>
+</footer>   
+</body>
+</html>
+
